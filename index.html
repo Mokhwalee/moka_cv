@@ -30,11 +30,17 @@
         a:hover {
             background-color: #0056b3;
         }
-        iframe {
-            border: none;
+        .iframe-container {
             width: 90%;
             height: 80vh;
-            overflow: auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .iframe-container iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
         }
     </style>
 </head>
@@ -42,6 +48,8 @@
     <h1>Welcome to Mokhwa's CV</h1>
     <p>Click the link below to download:</p>
     <a href="https://mokhwalee.github.io/moka_cv/CV_Mokhwa.pdf" download>Download CV</a>
-    <iframe src="https://mokhwalee.github.io/moka_cv/CV_Mokhwa.pdf"></iframe>
+    <div class="iframe-container">
+        <iframe src="https://mokhwalee.github.io/moka_cv/CV_Mokhwa.pdf"></iframe>
+    </div>
 </body>
 </html>
