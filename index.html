@@ -22,11 +22,22 @@
             padding-top: 30px;
             min-height: 70px;
             border-bottom: #77aaff 3px solid;
+            position: relative;
         }
         header h1 {
             text-align: center;
             text-transform: uppercase;
             margin: 0;
+        }
+        .download-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #77aaff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
         }
         .content {
             padding: 20px;
@@ -44,11 +55,14 @@
     <header>
         <div class="container">
             <h1>Mokhwa Lee</h1>
+            <a href="https://mokhwalee.github.io/webpage/CV_Mokhwa.pdf" class="download-btn" download>Download My CV</a>
         </div>
     </header>
     <div class="container">
         <div class="content">
-            <iframe src="https://mokhwalee.github.io/moka_cv/CV_Mokhwa.pdf"></iframe>
+            <h2>My CV</h2>
+            <p>You can view my CV below:</p>
+            <iframe src="https://mokhwalee.github.io/webpage/CV_Mokhwa.pdf"></iframe>
         </div>
     </div>
 </body>
