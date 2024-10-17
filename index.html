@@ -30,13 +30,35 @@
         a:hover {
             background-color: #0056b3;
         }
+        .nav-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .nav-icons a {
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            transition: background-color 0.3s ease;
+        }
+        .nav-icons a:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to Mokhwa's Website</h1>
     <p>Navigate to different sections:</p>
-    <a href="cv.html">CV</a>
-    <a href="poster.html">Poster</a>
-    <a href="ieee.html">IEEE Asilomar Signal Processing</a>
+    <div class="nav-icons">
+        <a href="cv.html" title="CV">CV</a>
+        <a href="poster.html" title="Poster">P</a>
+        <a href="ieee.html" title="IEEE">I</a>
+    </div>
 </body>
 </html>
