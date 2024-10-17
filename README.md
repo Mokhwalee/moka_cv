@@ -1,1 +1,1 @@
-Resume/CV link : https://mokhwalee.github.io/moka_cv/
+Homepage(Resume/CV, Poster, Paper) : https://mokhwalee.github.io/moka_cv/
